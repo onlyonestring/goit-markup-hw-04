@@ -270,6 +270,10 @@ body {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mediaicons {
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .media-container-item:hover,
 .media-container-item:focus {
   background-color: #404bbf;
@@ -285,6 +289,7 @@ body {
   align-items: center;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #4d5ae5;
 }
 
 .media-container-icon:hover,
