@@ -105,6 +105,24 @@ body {
   gap: 40px;
 }
 
+.studio-active {
+  position: relative;
+  color: #404bbf;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.studio-active::after {
+ content: "";
+ width: 100%;
+ position: absolute;
+ left: 0;
+ bottom: -1px;
+ height: 4px;
+ background-color: #404bbf;
+ border-radius: 2px;
+
+}
+
 .nav-link {
   display: block;
   padding-top: 24px;
@@ -155,7 +173,7 @@ body {
   padding-bottom: 188px;
   text-align: center;
   background-image: linear-gradient(
-      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/peopleoffice.jpg");
@@ -191,6 +209,7 @@ body {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:hover,
