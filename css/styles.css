@@ -433,6 +433,11 @@ body {
   padding-bottom: 100px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -455,4 +460,18 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.footer-media-links {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff
+  margin-bottom: 16px;
+}
+
+.media-list {
+  display: flex;
+  gap: 16px;
 }
